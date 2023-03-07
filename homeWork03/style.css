@@ -1,0 +1,21 @@
+
+.gallery{
+    width: 90%;
+    margin: auto;
+}
+.gallery>ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.gallery>ul>li{
+    flex-grow: 1;
+    flex-basis: auto;
+}
+.gallery>ul>li>img{
+    
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+
+}
