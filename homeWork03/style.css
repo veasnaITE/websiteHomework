@@ -69,7 +69,8 @@
     margin: auto;
 }
 .image{
-    width: 300px;
+    min-width: 150px;
+    max-width: 300px;
     margin: auto;
 
 }
@@ -77,6 +78,35 @@
     width: 100%;;
     object-fit:cover;
 }
+/* add styel to servies */
+.servies_container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color:blue;
+}
+.services_title{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+.items{
+    width: 25%;
+    text-align: center;
+}
+.items>i{
+    font-size: 50px;
+}
+.items>p{
+    color:rgb(35, 35, 200);
+    font-style: italic;
+    font-weight: lighter;
+    padding: 5px;
+}
+
 /* add style to gallery */
 .gallery{
     width: 90%;
