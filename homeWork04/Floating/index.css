@@ -1,0 +1,16 @@
+.container{
+    width: 90%;
+    margin: 30px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+.pic01{
+    width: 400px;
+    float: left;
+    margin: 5px;
+}
+.pic02{
+    width: 300px;
+    float: right;
+    margin: 5px;
+}
