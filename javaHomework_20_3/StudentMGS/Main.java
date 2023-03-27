@@ -64,7 +64,7 @@ class Student{
                 System.out.println("Enter Score: ");
                 String strScore;
                 strScore=input.next();
-                this.score=Integer.parseInt(strScore);
+                this.score=Float.parseFloat(strScore);
                 isScoreValid=true;
             }catch (Exception e){
                 System.out.println("You Input the Invalid Score:");
@@ -274,10 +274,12 @@ public class Main {
                     presEnter();
                 break;
                 case 4:
-                    System.out.println("---------------Show Student Information----------------");
-                    for (int i=0 ;i<students.size();i++){
-                        students.get(i).output();
-                    }
+                    if (students.size()>0){
+                        System.out.println("---------------Show Student Information----------------");
+                        for (int i=0 ;i<students.size();i++){
+                            students.get(i).output();
+                        }
+                    }else System.out.println("Need to Insert Student First Before Show Student Info...!");
                     presEnter();
                 break;
 
